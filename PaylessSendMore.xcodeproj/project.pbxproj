@@ -3,20 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1055842379DEB0000F202A /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1055832379DEB0000F202A /* TabViewController.swift */; };
+		AC36E96C236F5555005F3F2A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC36E96B236F5555005F3F2A /* LoginController.swift */; };
 		AC3A68DC236AFA11002D5DE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A68DB236AFA11002D5DE4 /* AppDelegate.swift */; };
 		AC3A68DE236AFA11002D5DE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A68DD236AFA11002D5DE4 /* SceneDelegate.swift */; };
 		AC3A68E0236AFA11002D5DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A68DF236AFA11002D5DE4 /* ViewController.swift */; };
 		AC3A68E3236AFA11002D5DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3A68E1236AFA11002D5DE4 /* Main.storyboard */; };
 		AC3A68E5236AFA16002D5DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3A68E4236AFA16002D5DE4 /* Assets.xcassets */; };
 		AC3A68E8236AFA16002D5DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3A68E6236AFA16002D5DE4 /* LaunchScreen.storyboard */; };
+		AC5B6575236C58D600BC2BB9 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B6569236C58D600BC2BB9 /* YoshikoTextField.swift */; };
+		AC5B6576236C58D600BC2BB9 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B656B236C58D600BC2BB9 /* HoshiTextField.swift */; };
+		AC5B6577236C58D600BC2BB9 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B656C236C58D600BC2BB9 /* MinoruTextField.swift */; };
+		AC5B6578236C58D600BC2BB9 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B656D236C58D600BC2BB9 /* YokoTextField.swift */; };
+		AC5B6579236C58D600BC2BB9 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B656E236C58D600BC2BB9 /* TextFieldEffects.swift */; };
+		AC5B657A236C58D600BC2BB9 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B656F236C58D600BC2BB9 /* JiroTextField.swift */; };
+		AC5B657B236C58D600BC2BB9 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B6570236C58D600BC2BB9 /* MadokaTextField.swift */; };
+		AC5B657C236C58D600BC2BB9 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B6571236C58D600BC2BB9 /* KaedeTextField.swift */; };
+		AC5B657D236C58D600BC2BB9 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B6572236C58D600BC2BB9 /* AkiraTextField.swift */; };
+		AC5B657E236C58D600BC2BB9 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B6573236C58D600BC2BB9 /* IsaoTextField.swift */; };
+		AC751A29237B0B4F0085E4AB /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC751A28237B0B4F0085E4AB /* Colors.xcassets */; };
+		ACAE8C9623842833008F0DE7 /* Pods_PaylessSendMore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE597B984CCD666B57CE0EB /* Pods_PaylessSendMore.framework */; };
+		ACAE8C9723842833008F0DE7 /* Pods_PaylessSendMore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE597B984CCD666B57CE0EB /* Pods_PaylessSendMore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ACCEEC832378555F00A0E927 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCEEC822378555F00A0E927 /* SignUpController.swift */; };
+		ACE48568237D96B300BB77F3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE48567237D96B300BB77F3 /* Login.storyboard */; };
+		ACE4856A237D97E300BB77F3 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE48569237D97E300BB77F3 /* SignUp.storyboard */; };
+		ACF1A5B7237DA64300274C26 /* Bungee.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACF1A5B6237DA3B500274C26 /* Bungee.ttf */; };
+		ACFF608123798B1000097038 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFF608023798B1000097038 /* Home.storyboard */; };
+		ACFF6083237991B100097038 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF6082237991B100097038 /* HomeController.swift */; };
+		ACFFBC8223819E930034F358 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFFBC8123819E930034F358 /* MainController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ACAE8C952384282B008F0DE7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ACAE8C9723842833008F0DE7 /* Pods_PaylessSendMore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		AC3A68D8236AFA11002D5DE4 /* PaylessSendMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaylessSendMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE597B984CCD666B57CE0EB /* Pods_PaylessSendMore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaylessSendMore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1055832379DEB0000F202A /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		AC36E96B236F5555005F3F2A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		AC3A68D8236AFA11002D5DE4 /* WychOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WychOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3A68DB236AFA11002D5DE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC3A68DD236AFA11002D5DE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AC3A68DF236AFA11002D5DE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +63,28 @@
 		AC3A68E4236AFA16002D5DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3A68E7236AFA16002D5DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3A68E9236AFA16002D5DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5B6569236C58D600BC2BB9 /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
+		AC5B656A236C58D600BC2BB9 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		AC5B656B236C58D600BC2BB9 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		AC5B656C236C58D600BC2BB9 /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
+		AC5B656D236C58D600BC2BB9 /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
+		AC5B656E236C58D600BC2BB9 /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		AC5B656F236C58D600BC2BB9 /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
+		AC5B6570236C58D600BC2BB9 /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
+		AC5B6571236C58D600BC2BB9 /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		AC5B6572236C58D600BC2BB9 /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
+		AC5B6573236C58D600BC2BB9 /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
+		AC751A28237B0B4F0085E4AB /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		ACAE8C922384282B008F0DE7 /* SwipeableTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwipeableTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCEEC822378555F00A0E927 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		ACE48567237D96B300BB77F3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		ACE48569237D97E300BB77F3 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		ACF1A5B6237DA3B500274C26 /* Bungee.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bungee.ttf; sourceTree = "<group>"; };
+		ACFF608023798B1000097038 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		ACFF6082237991B100097038 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		ACFFBC8123819E930034F358 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		D2F1D52DB97FD251D836E0A7 /* Pods-PaylessSendMore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaylessSendMore.debug.xcconfig"; path = "Target Support Files/Pods-PaylessSendMore/Pods-PaylessSendMore.debug.xcconfig"; sourceTree = "<group>"; };
+		F41EFD8A99F2D5436073B754 /* Pods-PaylessSendMore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaylessSendMore.release.xcconfig"; path = "Target Support Files/Pods-PaylessSendMore/Pods-PaylessSendMore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +92,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACAE8C9623842833008F0DE7 /* Pods_PaylessSendMore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90159F203BEF94115540B848 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2F1D52DB97FD251D836E0A7 /* Pods-PaylessSendMore.debug.xcconfig */,
+				F41EFD8A99F2D5436073B754 /* Pods-PaylessSendMore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC10557D2379D464000F202A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACCEEC822378555F00A0E927 /* SignUpController.swift */,
+				AC36E96B236F5555005F3F2A /* LoginController.swift */,
+				ACFF6082237991B100097038 /* HomeController.swift */,
+				AC3A68DF236AFA11002D5DE4 /* ViewController.swift */,
+				AC1055832379DEB0000F202A /* TabViewController.swift */,
+				ACFFBC8123819E930034F358 /* MainController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AC10557E2379D5CC000F202A /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF608023798B1000097038 /* Home.storyboard */,
+				AC3A68E1236AFA11002D5DE4 /* Main.storyboard */,
+				ACE48567237D96B300BB77F3 /* Login.storyboard */,
+				ACE48569237D97E300BB77F3 /* SignUp.storyboard */,
+			);
+			name = StoryBoards;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		AC3A68CF236AFA10002D5DE4 = {
 			isa = PBXGroup;
 			children = (
 				AC3A68DA236AFA11002D5DE4 /* PaylessSendMore */,
 				AC3A68D9236AFA11002D5DE4 /* Products */,
+				90159F203BEF94115540B848 /* Pods */,
+				CAA5C0F94521F117F714A1F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		AC3A68D9236AFA11002D5DE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC3A68D8236AFA11002D5DE4 /* PaylessSendMore.app */,
+				AC3A68D8236AFA11002D5DE4 /* WychOnline.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +154,45 @@
 		AC3A68DA236AFA11002D5DE4 /* PaylessSendMore */ = {
 			isa = PBXGroup;
 			children = (
+				ACF1A5B6237DA3B500274C26 /* Bungee.ttf */,
 				AC3A68DB236AFA11002D5DE4 /* AppDelegate.swift */,
 				AC3A68DD236AFA11002D5DE4 /* SceneDelegate.swift */,
-				AC3A68DF236AFA11002D5DE4 /* ViewController.swift */,
-				AC3A68E1236AFA11002D5DE4 /* Main.storyboard */,
+				AC10557E2379D5CC000F202A /* StoryBoards */,
+				AC10557D2379D464000F202A /* Controllers */,
 				AC3A68E4236AFA16002D5DE4 /* Assets.xcassets */,
+				AC751A28237B0B4F0085E4AB /* Colors.xcassets */,
 				AC3A68E6236AFA16002D5DE4 /* LaunchScreen.storyboard */,
 				AC3A68E9236AFA16002D5DE4 /* Info.plist */,
+				AC5B6568236C58D600BC2BB9 /* TextFieldEffects */,
 			);
 			path = PaylessSendMore;
+			sourceTree = "<group>";
+		};
+		AC5B6568236C58D600BC2BB9 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				AC5B6569236C58D600BC2BB9 /* YoshikoTextField.swift */,
+				AC5B656A236C58D600BC2BB9 /* TextFieldEffects.h */,
+				AC5B656B236C58D600BC2BB9 /* HoshiTextField.swift */,
+				AC5B656C236C58D600BC2BB9 /* MinoruTextField.swift */,
+				AC5B656D236C58D600BC2BB9 /* YokoTextField.swift */,
+				AC5B656E236C58D600BC2BB9 /* TextFieldEffects.swift */,
+				AC5B656F236C58D600BC2BB9 /* JiroTextField.swift */,
+				AC5B6570236C58D600BC2BB9 /* MadokaTextField.swift */,
+				AC5B6571236C58D600BC2BB9 /* KaedeTextField.swift */,
+				AC5B6572236C58D600BC2BB9 /* AkiraTextField.swift */,
+				AC5B6573236C58D600BC2BB9 /* IsaoTextField.swift */,
+			);
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		CAA5C0F94521F117F714A1F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACAE8C922384282B008F0DE7 /* SwipeableTabBarController.framework */,
+				3BE597B984CCD666B57CE0EB /* Pods_PaylessSendMore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC3A68EC236AFA16002D5DE4 /* Build configuration list for PBXNativeTarget "PaylessSendMore" */;
 			buildPhases = (
+				3CBD619CF09F4D005E7077E4 /* [CP] Check Pods Manifest.lock */,
 				AC3A68D4236AFA11002D5DE4 /* Sources */,
 				AC3A68D5236AFA11002D5DE4 /* Frameworks */,
 				AC3A68D6236AFA11002D5DE4 /* Resources */,
+				45F24A9984E716BFBCC0300B /* [CP] Embed Pods Frameworks */,
+				ACAE8C952384282B008F0DE7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +215,7 @@
 			);
 			name = PaylessSendMore;
 			productName = PaylessSendMore;
-			productReference = AC3A68D8236AFA11002D5DE4 /* PaylessSendMore.app */;
+			productReference = AC3A68D8236AFA11002D5DE4 /* WychOnline.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,22 +256,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF1A5B7237DA64300274C26 /* Bungee.ttf in Resources */,
+				AC751A29237B0B4F0085E4AB /* Colors.xcassets in Resources */,
 				AC3A68E8236AFA16002D5DE4 /* LaunchScreen.storyboard in Resources */,
+				ACE48568237D96B300BB77F3 /* Login.storyboard in Resources */,
+				ACE4856A237D97E300BB77F3 /* SignUp.storyboard in Resources */,
 				AC3A68E5236AFA16002D5DE4 /* Assets.xcassets in Resources */,
 				AC3A68E3236AFA11002D5DE4 /* Main.storyboard in Resources */,
+				ACFF608123798B1000097038 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CBD619CF09F4D005E7077E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaylessSendMore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45F24A9984E716BFBCC0300B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaylessSendMore/Pods-PaylessSendMore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaylessSendMore/Pods-PaylessSendMore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaylessSendMore/Pods-PaylessSendMore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC3A68D4236AFA11002D5DE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5B657D236C58D600BC2BB9 /* AkiraTextField.swift in Sources */,
+				AC5B657B236C58D600BC2BB9 /* MadokaTextField.swift in Sources */,
+				AC5B6578236C58D600BC2BB9 /* YokoTextField.swift in Sources */,
+				AC5B657C236C58D600BC2BB9 /* KaedeTextField.swift in Sources */,
+				ACFFBC8223819E930034F358 /* MainController.swift in Sources */,
+				AC5B6575236C58D600BC2BB9 /* YoshikoTextField.swift in Sources */,
+				ACCEEC832378555F00A0E927 /* SignUpController.swift in Sources */,
+				AC5B657A236C58D600BC2BB9 /* JiroTextField.swift in Sources */,
+				AC5B6579236C58D600BC2BB9 /* TextFieldEffects.swift in Sources */,
 				AC3A68E0236AFA11002D5DE4 /* ViewController.swift in Sources */,
+				AC5B657E236C58D600BC2BB9 /* IsaoTextField.swift in Sources */,
 				AC3A68DC236AFA11002D5DE4 /* AppDelegate.swift in Sources */,
 				AC3A68DE236AFA11002D5DE4 /* SceneDelegate.swift in Sources */,
+				AC1055842379DEB0000F202A /* TabViewController.swift in Sources */,
+				ACFF6083237991B100097038 /* HomeController.swift in Sources */,
+				AC5B6576236C58D600BC2BB9 /* HoshiTextField.swift in Sources */,
+				AC5B6577236C58D600BC2BB9 /* MinoruTextField.swift in Sources */,
+				AC36E96C236F5555005F3F2A /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,17 +475,19 @@
 		};
 		AC3A68ED236AFA16002D5DE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F1D52DB97FD251D836E0A7 /* Pods-PaylessSendMore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2R89TU8FJX;
+				DEVELOPMENT_TEAM = 37FX9VQNP9;
 				INFOPLIST_FILE = PaylessSendMore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wychonlineInc.PaylessSendMore;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wychonline.PaylessSendMore;
+				PRODUCT_NAME = WychOnline;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +495,19 @@
 		};
 		AC3A68EE236AFA16002D5DE4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41EFD8A99F2D5436073B754 /* Pods-PaylessSendMore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2R89TU8FJX;
+				DEVELOPMENT_TEAM = 37FX9VQNP9;
 				INFOPLIST_FILE = PaylessSendMore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wychonlineInc.PaylessSendMore;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wychonline.PaylessSendMore;
+				PRODUCT_NAME = WychOnline;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
